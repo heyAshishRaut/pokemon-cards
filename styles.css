@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh; 
+    background-color: beige;
+}
+
+.container {
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+/* Info */
+
+#info{
+    text-align: center;
+}
+
+#info h2{
+    margin-bottom: 15px;
+}
+
+#info input {
+    padding: 0 10px;
+    height: 30px;
+    border-radius: 25px;
+    border: 1px solid black;
+    outline: none;
+
+}
+
+#card-info button{
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 25px;
+    padding: 0 10px;
+    background-color: rgb(38, 38, 236);
+    color: white;
+    border: 1px solid rgb(38, 38, 236);
+}
+
+#card-info button:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* Showcase */
+
+#show-card {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;  
+    gap: 15px;  
+    padding: 20px;
+}
+
+
+
+/* Upcoming card styling */
+.add {
+    height: 200px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+    border-radius: 10px;
+    row-gap: 10px;
+}
+
+.add img {
+    width: 80px;
+    height: 80px;
+}
